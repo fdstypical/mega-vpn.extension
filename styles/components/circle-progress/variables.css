@@ -1,0 +1,16 @@
+:root {
+  --circle-progress-inner-track--gray: var(--light-gray);
+  --circle-progress-outer-track--gray: var(--white-alpha-02);
+  --circle-progress-inner-indicator--gray: var(--dark-gray-alpha-03);
+  --circle-progress-outer-indicator--gray: var(--dark-gray-alpha-01);
+
+  --circle-progress-inner-track--orange: var(--light-gray);
+  --circle-progress-outer-track--orange: var(--white-alpha-02);
+  --circle-progress-inner-indicator--orange: var(--orange);
+  --circle-progress-outer-indicator--orange: var(--orange-alpha-03);
+
+  --circle-progress-inner-track--green: var(--green);
+  --circle-progress-outer-track--green: var(--white-alpha-02);
+  --circle-progress-inner-indicator--green: var(--green);
+  --circle-progress-outer-indicator--green: var(--green-alpha-03);
+}

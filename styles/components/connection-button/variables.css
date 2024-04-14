@@ -1,0 +1,29 @@
+:root {
+  --connection-button-outer-cicle-gradient--disconnected: radial-gradient(
+    50% 50%,
+    #bebebe 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --connection-button-outer-cicle-gradient--connecting: radial-gradient(
+    50% 50%,
+    rgba(255, 120, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  --connection-button-outer-cicle-gradient--connected: radial-gradient(
+    50% 50%,
+    #53d288 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  --connection-button-inner-cicle: var(--white-alpha-02);
+
+  --connection-button-shadow: 0px 2px 4px 0px var(--black-alpha-02);
+
+  --connection-button-icon-color--disconnected: var(--green);
+  --connection-button-icon-color--connecting: var(--orange);
+  --connection-button-icon-color--connected: var(--white);
+
+  --connection-button-bg--disconnected: var(--white);
+  --connection-button-bg--connecting: var(--light-gray);
+  --connection-button-bg--connected: var(--green);
+}

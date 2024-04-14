@@ -1,0 +1,34 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --white-alpha-02: rgba(255, 255, 255, 0.2);
+
+  --black: rgba(0, 0, 0, 1);
+  --black-alpha-02: rgba(0, 0, 0, 0.2);
+
+  --light-gray: rgba(251, 253, 248, 1);
+
+  --dark-gray: rgba(25, 28, 25, 1);
+  --dark-gray-alpha-01: rgba(25, 28, 25, 0.1);
+  --dark-gray-alpha-03: rgba(25, 28, 25, 0.3);
+
+  --pale-cyan: rgba(79, 99, 98, 1);
+  --bright-cyan: rgba(108, 142, 149, 1);
+
+  --orange: rgba(255, 120, 0, 1);
+  --orange-alpha-03: rgba(255, 120, 0, 0.3);
+
+  --green: rgba(96, 205, 139, 1);
+  --green-alpha-01: rgba(96, 205, 139, 0.1);
+  --green-alpha-03: rgba(96, 205, 139, 0.3);
+  --green-alpha-05: rgba(96, 205, 139, 0.5);
+}
+
+:root {
+  --background: var(--white);
+  --foreground: var(--black);
+}
+
+[data-theme="dark"] {
+  --background: var(--black);
+  --foreground: var(--white);
+}

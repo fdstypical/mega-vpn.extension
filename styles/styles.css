@@ -1,0 +1,44 @@
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./components);
+
+:root {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: var(--foreground);
+  background-color: var(--background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  min-height: 37.5rem;
+}
+
+body {
+  min-width: 22.5rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  width: 100%;
+  flex-grow: 1;
+}
